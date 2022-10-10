@@ -1,0 +1,143 @@
+*{
+  margin:0;
+  padding:0px
+}
+header{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  witdh:100vw
+  
+}
+.logo-docplanner{
+  witdh:268;
+  height:33px;
+  padding:12px
+    
+}
+
+header ul{
+  display:flex
+}
+header ul li{
+    font-weight: bold;
+    font-family: Roboto,Arial,sans-serif;
+    list-style-type:none;
+    display:flex;
+    padding:8px;
+}
+
+header ul li .menu-item{
+  text-decoration:none;
+  color:#ababab
+}
+.menu-item-about{
+  color:#1abba5;
+  text-decoration:none
+}
+.menu-item:hover{
+  color:#1abba5
+}
+.dropdown{
+  flex-direction:column;
+  position:absolute;
+  padding:25px;
+  padding-left:0px;
+    display:none
+}
+.dropdown a {
+  text-decoration:none;
+  color:#ababab
+}
+.menu-item-drop:hover + .dropdown{
+  display:flex;
+  
+}
+.dropdown:hover{
+  display:flex
+}
+.dropdown a:hover{
+  background-color:#f5f4f4;
+  color:#1abba5 ;
+}
+#img{
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #title{
+        color: #1abba5;
+        text-align: center;
+        font-family:Arial,sans-serif;
+    }
+    .COL-2{
+        color: #747474;
+        float: left;
+        width: 50%;
+        line-height: 1.75;
+        box-sizing: inherit;
+        font-family: Roboto,Arial,sans-serif;
+        box-sizing: inherit;
+        min-height: 1px;
+        padding: 10px;
+        justify-content: flex-end;
+    }
+    #p2{
+        float: right;
+        justify-content: flex-end;
+
+    }
+    .COL-3{
+        background-color: #1abba5;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+    margin: 0.3em 0;
+    font-family:Arial,sans-serif;
+    letter-spacing: -.3px;
+    
+    }
+    .COL-4{
+        background-color: #3d83df;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+    margin: 0.3em 0;
+    font-family:Arial,sans-serif;
+    letter-spacing: -.3px;
+    
+    }
+    .COL-5{
+        background-color: #1b2734;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+    margin: 0.3em 0;
+    font-family:Arial,sans-serif;
+    letter-spacing: -.3px;
+    
+    }
+    cancer list{
+        color: #fff;
+    }
+   .COL-6{
+    justify-content: space-between;
+   }
+   .COL-7
+    {
+        text-align: cleft;
+     width: 100%;
+     color: #1abba5;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    .brands__logos{
+        color: #ababab;
+    }
+   .brands__logos:hover
+    {
+     fill:#1abba5;
+    }
+   
+
+}
